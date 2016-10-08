@@ -15,7 +15,7 @@ button.onclick = function()
               span.innerHTML = counter.toString();
           }
       }
-  }
+  };
   request.open('GET','http://manojtaleka.imad.hasura-app.io/counter',true);
   request.send(null);
 };
